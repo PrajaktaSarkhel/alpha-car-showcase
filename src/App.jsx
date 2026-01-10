@@ -208,7 +208,7 @@ function App() {
 
               <div className="flex items-baseline gap-2">
                 <span className="text-4xl font-bold text-gray-900">₹{formatPrice(carDetails.price)}</span>
-                <span className="text-sm text-gray-500">onwards</span>
+                {/* <span className="text-sm text-gray-500">onwards</span> */}
               </div>
 
               <div className="flex flex-wrap gap-3 pt-4">
@@ -235,7 +235,7 @@ function App() {
                 </div>
                 <div className="border-l-4 border-green-600 pl-4 bg-green-50/50 py-3">
                   <div className="text-2xl font-bold text-gray-900">{carDetails.ownership}</div>
-                  <div className="text-xs text-gray-500 uppercase">Owner</div>
+                  <div className="text-xs text-gray-500 uppercase">Owner Type</div>
                 </div>
               </div>
             </div>
