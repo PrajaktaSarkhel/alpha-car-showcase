@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+🚗 Alpha Car Showcase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, interactive car dealership website featuring 360° 3D car models, built with React and Google's Model-Viewer. This project was developed with a focus on creating an immersive user experience for browsing pre-owned vehicles.
 
-## Available Scripts
+![Alpha Car Showcase](https://img.shields.io/badge/React-18.0+-blue.svg)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0+-38B2AC.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-In the project directory, you can run:
+## 🌟 Live Demo
 
-### `npm start`
+**[View Live Demo](https://alpha-car-showcase.vercel.app/)**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Interactive 3D Models**: Rotate, zoom, and explore 6 different car models in 360°
+- **Responsive Design**: Seamless experience across desktop, tablet, and mobile devices
+- **Custom Loader Animation**: Branded loading screen with animated car graphics
+- **Event Pricing Calculator**: Dynamic calculator for event pricing based on invites and duration
+- **Modern UI/UX**: Clean interface inspired by industry leaders like Spinny
+- **Smooth Animations**: Carefully crafted transitions and hover effects
+- **Model Navigation**: Easy switching between different car models
 
-### `npm test`
+## 🚀 Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend Framework**: React.js (with Hooks: useState, useEffect)
+- **3D Rendering**: Google Model-Viewer
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Animations**: Custom SVG animations & CSS
+- **Language**: JavaScript ES6+
+- **Deployment**: Vercel
 
-### `npm run build`
+## 📁 Project Structure
+```
+alpha-car-showcase/
+├── public/
+│   ├── models/          # 3D car model files (.glb)
+│   └── index.html
+├── src/
+│   ├── App.js           # Main application component
+│   ├── CarLoader.jsx    # Custom loader component
+│   ├── index.js         # Entry point
+│   └── index.css        # Global styles
+├── package.json
+└── README.md
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎨 Car Models Included
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Maruti Suzuki Baleno** - 2022 Model
+2. **Maruti Suzuki Brezza** - 2022 Model
+3. **Maruti Suzuki S-Presso** - 2023 Model
+4. **Maruti Suzuki Swift Dzire** - 2021 Model
+5. **Maruti Suzuki XL6** - 2021 Model
+6. **Maruti Suzuki Ertiga** - 2022 Model
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📝 License
 
-### `npm run eject`
+This project is [MIT](LICENSE) licensed.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 👤 Author
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Prajakta Sarkhel**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- GitHub: [@PrajaktaSarkhel](https://github.com/PrajaktaSarkhel)
+- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/prajakta-sarkhel)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🙏 Acknowledgments
 
-## Learn More
+- Google Model-Viewer for 3D rendering capabilities
+- Tailwind CSS for the utility-first CSS framework
+- Lucide React for beautiful icons
+- Inspiration from Spinny's modern car showcase design
+- All the open-source contributors whose libraries made this possible
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📧 Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+For any queries or suggestions, feel free to reach out!
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+⭐ If you found this project helpful, please consider giving it a star!
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
