@@ -62,8 +62,8 @@ This project is [MIT](LICENSE) licensed.
 
 **Prajakta Sarkhel**
 
-- GitHub: [@PrajaktaSarkhel](https://github.com/PrajaktaSarkhel)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/prajakta-sarkhel)
+- GitHub: [GitHub|PrajaktaSarkhel](https://github.com/PrajaktaSarkhel)
+- LinkedIn: [LinkedIn|Prajakta Sarkhel](https://www.linkedin.com/in/prajakta-sarkhel)
 
 ## 🙏 Acknowledgments
 
